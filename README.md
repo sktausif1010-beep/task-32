@@ -24,7 +24,7 @@ This is an Offline Chess Game developed using React.js. Two players can play che
 
 2. Start the project - npm run dev
 
-3. Open the browser - http://localhost:3000
+3. Open the browser - http://localhost:5173
 
 ## Author
 
