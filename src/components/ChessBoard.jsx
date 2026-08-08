@@ -138,7 +138,7 @@ function ChessBoard() {
                 className={`square ${light ? "light" : "dark"} ${isSelected ? "selected" : ""}`}
                 onClick={() => handleClick(rowIndex, colIndex)}>
                 {piece !== "" && (
-                  <img src={`/pieces/${piece}.png`} alt={piece}/>
+                  <img src={`${import.meta.env.BASE_URL}pieces/${piece}.png`} alt={piece}/>
                 )}
               </div>
             );
